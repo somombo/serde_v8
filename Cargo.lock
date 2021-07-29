@@ -68,9 +68,8 @@ dependencies = [
 
 [[package]]
 name = "rusty_v8"
-version = "0.25.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "13867576f32f57576ebdf32ca98d63b8a58e9d0af084e1b366b41e66699c91a3"
+version = "0.25.4"
+source = "git+https://github.com/somombo/rusty_v8.git?tag=v0.25.4#32fa27af5d764b9a9c45e1c8c304f03594ad8a0c"
 dependencies = [
  "bitflags",
  "fslock",
@@ -118,7 +117,7 @@ dependencies = [
 
 [[package]]
 name = "serde_v8"
-version = "0.8.0"
+version = "0.8.1"
 dependencies = [
  "bencher",
  "rusty_v8",
